@@ -1,0 +1,43 @@
+{
+  "name": "ng-packaged-ticktock-demo",
+  "version": "0.1.0",
+  "description": "Angular ng-packaged TickTock library demo",
+  "main": "./dist/ng-packaged-ticktock-demo.umd.min.js",
+  "module": "./dist/esm5/ng-packaged-ticktock-demo.js",
+  "es2015": "./dist/esm2015/ng-packaged-ticktock-demo.js",
+  "typings": "./dist/public_api.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "library",
+    "tick-tock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karasuni/ng-packaged-ticktock-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karasuni/ng-packaged-ticktock-demo/issues"
+  },
+  "homepage": "https://github.com/karasuni/ng-packaged-ticktock-demo#readme",
+  "scripts": {
+    "build": "ng-packagr",
+    "test": "echo TODO",
+    "publish": "npm publish dist"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^5.2.1",
+    "@angular/compiler-cli": "^5.2.1",
+    "@angular/core": "^5.2.1",
+    "ng-packagr": "^2.0.0-rc.11",
+    "rxjs": "^5.5.6",
+    "tsickle": "^0.26.0",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.20"
+  }
+}
